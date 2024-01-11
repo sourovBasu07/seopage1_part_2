@@ -4,7 +4,7 @@ import { categories } from "./constants";
 import UploadFilesModal from "./components/UploadFilesModal";
 
 const App = () => {
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <section className="relative">
